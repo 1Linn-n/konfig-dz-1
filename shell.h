@@ -10,6 +10,7 @@ class Shell {
 public:
     Shell(int argc, char* argv[]);
     void run();
+    std::string getUsername() const;
 
 private:
     std::string username;
