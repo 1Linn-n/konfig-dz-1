@@ -90,3 +90,7 @@ void Shell::executeCommand(const std::string& command) {
 void Shell::logAction(const std::string& action) {
     logger->logAction(action);
 }
+
+std::string Shell::getUsername() const {
+    return username;
+}
