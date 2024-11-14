@@ -3,6 +3,8 @@
 
 #include <string>
 #include <vector>
+#include "filesystem.h"
+#include "logger.h"
 
 class Shell {
 public:
