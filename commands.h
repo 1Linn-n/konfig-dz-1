@@ -2,6 +2,7 @@
 #define COMMANDS_H
 
 #include <string>
+#include "shell.h"
 
 void ls(const std::string& path);
 void cd(const std::string& path);
